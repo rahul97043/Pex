@@ -22,16 +22,16 @@ jobs:
               sudo apt install neofetch
               neofetch
               cd
-              mkdir bin
-              cd bin           
-              curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo 
-              chmod a+x ~/bin/repo
+              mkdir bin2
+              cd bin2           
+              curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin2/repo 
+              chmod a+x ~/bin2/repo
               cd
-              cd bin
+              cd bin2
               git clone https://github.com/akhilnarang/scripts.git scripts
               cd
-              bash bin/scripts/setup/android_build_env.sh
-              bash bin/scripts/setup/install_android_sdk.sh
+              bash bin2/scripts/setup/android_build_env.sh
+              bash bin2/scripts/setup/install_android_sdk.sh
               cd
               mkdir OrangeFox
               cd OrangeFox
