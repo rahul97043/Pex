@@ -32,6 +32,8 @@ jobs:
               cd
               bash bin2/scripts/setup/android_build_env.sh
               bash bin2/scripts/setup/install_android_sdk.sh
+              git config --global user.name "Samyak"
+              git config --global user.email "jainsamyak2002.sj@gmail.com"
               cd
               mkdir OrangeFox
               cd OrangeFox
