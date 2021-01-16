@@ -15,3 +15,7 @@ jobs:
                 echo " HEllO World "
                 ls
                 df -h
+                mkdir sam
+                ls
+                sudo apt install neofetch
+                neofetch
