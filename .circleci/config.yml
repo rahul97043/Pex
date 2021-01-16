@@ -19,9 +19,9 @@ jobs:
               ls
               sudo apt update
               sudo apt upgrade -y
-              sudo apt install neofetch
+              sudo apt install neofetch -y
               neofetch
-              sudo apt install expect
+              sudo apt install expect -y
               cd
               wget https://github.com/rahul97043/Pex/blob/main/setup.sh
               chmod 777 setup.sh
