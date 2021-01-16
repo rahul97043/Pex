@@ -27,6 +27,8 @@ jobs:
               chmod 777 setup.sh
               expect -c '
               spawn ./setup.sh
+              expect "Geographic area: "
+              send "2\r"
               expect "Enable color display in this user account (y/N)?"
               send "y\r"
               expect eof
