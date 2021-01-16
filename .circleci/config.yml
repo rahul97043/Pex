@@ -1,0 +1,15 @@
+version: 2.1
+
+executors:
+  worker:
+    docker:
+      - image: fr3akyphantom/droid-builder:latest
+
+jobs:
+  build:
+    executor: worker
+    steps:
+      - run:
+         name: hello
+         command : |
+                echo " HEllO World "
