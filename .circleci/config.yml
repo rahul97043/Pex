@@ -13,3 +13,5 @@ jobs:
          name: hello
          command : |
                 echo " HEllO World "
+                ls
+                df -h
