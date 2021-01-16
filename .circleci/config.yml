@@ -6,12 +6,10 @@ jobs:
       image: ubuntu-2004:202010-01 
 
       steps:
-        - name: hello
-        - command : |
-                echo " HEllO World "
-                ls
-                df -h
-                mkdir sam
-                ls
-                sudo apt install neofetch
-                neofetch
+          echo " HEllO World "
+          ls
+          df -h
+          mkdir sam
+          ls
+          sudo apt install neofetch
+          neofetch
